@@ -9,6 +9,16 @@ body,html{
     width: 100%;
 }
 
+@font-face {
+    font-family: Motosan ;
+    src: url("/Resources/PPObjectSans-Heavy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Motosan-slant ;
+    src: url("/Resources/PPObjectSans-HeavySlanted.otf") format("opentype");
+}
+
 
 .main-container{
     background-color: rgb(255, 255, 255);
@@ -33,15 +43,18 @@ body,html{
 
 a{
 background-color: transparent;
-    color: rgb(140, 136, 136);
+    color:black;
     text-decoration: none;
 }
 
-a:visited{
-    color:black;
+/* a:visited{
+    color:gray;
     background-color: transparent;
     text-decoration: none;
-}
+}  */
+
+
+
 
 .content-box{
     height: 75%;
@@ -50,8 +63,8 @@ a:visited{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif;
-    background-image:url(Resources/rohit-choudhari-S6KP_UX2O9s-unsplash.jpg) ;
+    font-family: "Motosan-slant";
+    background-image:url(Resources/bree-anne-m7F6iPPYlag-unsplash.jpg) ;
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
@@ -59,14 +72,14 @@ a:visited{
 }
 .texts{
     text-transform: uppercase;
-    font-size: 30px;
-    font-family: sans-serif;
+    font-size: 35px;
+    font-family: "Motosan";
     margin-bottom: 10px;
     font-weight: 400;
 }
 
 h1{
-    line-height: 150px;
+    line-height: 160px;
     font-size: 200px;
 }
 
