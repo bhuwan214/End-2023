@@ -24,6 +24,7 @@ body,html{
     background-color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
+    
 }
 
 .head{
@@ -53,10 +54,13 @@ background-color: transparent;
     text-decoration: none;
 }  */
 
-
-
+.and{
+    padding-right:130px ;
+}
 
 .content-box{
+
+    margin-top:20px ;
     height: 75%;
     width: 100%;
     display: flex;
@@ -64,13 +68,23 @@ background-color: transparent;
     justify-content: center;
     align-items: center;
     font-family: "Motosan-slant";
-    background-image:url(/Resources/bg-img.jpg) ;
-    background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    color:rgb(30, 28, 28);
+    
 }
+
 .texts{
+
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Motosan";
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.text{
+    line-height: 40px;
+    width: 250px;
+    margin-left: 50px;
+    padding-top:20px ;
     text-transform: uppercase;
     font-size: 35px;
     font-family: "Motosan";

@@ -14,19 +14,43 @@
        <a href="Story/Story.html" > <li>story</li></a>
     </div>
     <div class="content-box">
-        <div class="texts">and <br>
-             with that</div>
+        <div class="texts ">and
+            <br>    with that 
+         </div>
         
-        <h1>20</h1><h1 class="old">23</h1>
+        
+
+        
+       <div class="texts"><h1>20</h1></div> 
+       <div class="texts"><h1 class="old">23</h1></div>
+        <div class="texts"><div class="text"> Season comes 
+            to an end</div></div>
 </div>
 
     <div class="footer">My Archive
-        <audio   autoplay>
+        <audio autoplay  >
             <source src="Resources/2023 3nd.mp3" type="audio/ogg"  >
         </audio>
     </div>
     
    </div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+   <script>
+    gsap.from('.texts',{
+        x:100,
+        stagger:1,
+        opacity:0,
+        dalay:0.4,
+        duration:0.4,
+
+    })
+  
+
+   </script>
+
 
 </body>
 </html>
