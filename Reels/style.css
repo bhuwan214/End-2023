@@ -49,7 +49,6 @@ background-color: transparent;
 .content-box{
  display: flex;
  justify-content: center;
- padding-top: 50px;
     width: 100%;
 
     border-radius: 2px;
@@ -83,7 +82,15 @@ align-items: center;
     width: 235px;
     height: 400px;
     /* background-color: rgb(183, 182, 182); */
-    color: white;
+    color: rgb(161, 163, 64);
+    font-size: 20px;
+}
+
+p{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color:peachpuff;
 }
 
 
